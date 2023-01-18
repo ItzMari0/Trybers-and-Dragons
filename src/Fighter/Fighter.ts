@@ -4,7 +4,7 @@ export default interface Fighter {
   lifePoints: number;
   strength: number;
   defense: number;
-  energy?: Energy
+  energy?: Energy;
 
   attack(enemy: Fighter): void;
 
